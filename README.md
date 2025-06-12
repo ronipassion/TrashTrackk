@@ -1,50 +1,28 @@
-# Welcome to your Expo app 👋
+#TrashTrackk - Mapeamento de Pontos de Lixo
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+Um aplicativo móvel para identificar, registrar e mapear pontos críticos de descarte irregular de lixo em áreas urbanas.
 
-## Get started
+#Sobre o Projeto
 
-1. Install dependencies
+Este aplicativo permite que os usuários atuem como fiscais ambientais em sua comunidade. Ao encontrar um local com lixo acumulado, o usuário pode rapidamente cadastrar o ponto, fornecendo informações essenciais da localização e tipo de coleta da área.
 
-   ```bash
-   npm install
-   ```
+O projeto é construído com React Native e Expo, focando no uso de funcionalidades nativas do dispositivo para uma experiência de usuário rica e integrada.
 
-2. Start the app
+#✨ Funcionalidades Principais
 
-   ```bash
-   npx expo start
-   ```
+Listagem de todos os pontos de lixo cadastrados.
+Cadastro de novos pontos críticos.
+Uso de Recursos Nativos do Dispositivo:
+Câmera: Permite ao usuário tirar uma foto do local no exato momento do cadastro.
+Galeria de Imagens: Oferece a opção de selecionar uma foto já existente no dispositivo.
+GPS: Captura as coordenadas geográficas exatas (latitude e longitude) do ponto com um único toque, garantindo a precisão dos dados.
+Feedback em Tempo Real: O aplicativo informa ao usuário quando a localização é capturada, a foto é anexada e o registro é salvo com sucesso.
 
-In the output, you'll find options to open the app in a
+#🛠️ Tecnologias Utilizadas
+React Native
+Expo
+TypeScript
+Expo Router (para navegação entre telas)
+Expo Image Picker (para acesso à câmera e galeria)
+Expo Location (para acesso ao GPS)
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
-
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
-
-```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
